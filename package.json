@@ -1,0 +1,33 @@
+{
+  "name": "fantasy-analyzer-server",
+  "version": "1.0.0",
+  "description": "fantasy-analyzer server",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msoerjanto/fantasy-analyzer-server.git"
+  },
+  "author": "Michael Soerjanto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msoerjanto/fantasy-analyzer-server/issues"
+  },
+  "homepage": "https://github.com/msoerjanto/fantasy-analyzer-server#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "@types/node": "^11.11.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.18"
+  }
+}
